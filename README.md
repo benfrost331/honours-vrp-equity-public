@@ -106,7 +106,7 @@ Solver stopping status and independently validated feasibility are separate conc
 ## Repository Structure
 
 ```text
-honours-vrp-equity/
+honours-vrp-equity-public/
 ├── README.md
 ├── requirements.txt                    # Dashboard and common dependencies
 ├── requirements-optimisation.txt       # Additional solver packages
@@ -161,7 +161,7 @@ The canonical development environment used **Python 3.10.10**. The included requ
 ```bash
 # Clone the repository (authentication is required until public release).
 git clone https://github.com/benfrost331/honours-vrp-equity-public.git
-cd honours-vrp-equity
+cd honours-vrp-equity-public
 
 # macOS / Linux: create and activate an environment.
 python3.10 -m venv .venv
