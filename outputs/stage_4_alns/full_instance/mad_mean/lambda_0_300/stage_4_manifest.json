@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-02T11:50:54.120569+00:00",
+  "stage": "stage_4_alns",
+  "model_scope": "full_instance",
+  "equity_measure_type": "mad_mean",
+  "lambda_tag": "lambda_0_300",
+  "lambda_equity": 0.3,
+  "source_stage_3_repaired_directory": "outputs/stage_3_routing_repaired/full_instance/mad_mean/lambda_0_300",
+  "max_iterations": 100,
+  "random_seed": 67,
+  "final_polish_only_changed_routes": true,
+  "final_exact_route_limit": 8,
+  "destroy_operators": [
+    "random_removal",
+    "worst_route_removal",
+    "high_workload_driver_removal",
+    "related_order_removal"
+  ],
+  "repair_operators": [
+    "cheapest_insertion",
+    "regret_2_insertion",
+    "workload_balancing_insertion"
+  ],
+  "removal_fraction": 0.005,
+  "min_removals": 2,
+  "max_removals": 6,
+  "candidate_drivers": 6,
+  "max_targets_per_order": 12,
+  "search_exact_route_limit": 5,
+  "route_eval_cache_max_size": 50000,
+  "max_workload_deterioration_pct": 0.1,
+  "max_workload_deterioration_penalty": 50.0
+}

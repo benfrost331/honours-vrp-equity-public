@@ -1,0 +1,33 @@
+{
+  "objective_mode": "normalized",
+  "equity_measure_type": "gini",
+  "cost_reference": 168049.4883401394,
+  "equity_reference": 1.0,
+  "workload_reference": 1.0,
+  "time_limit_seconds": 7200,
+  "relative_gap_target": 0.03,
+  "lambda_values_requested": [
+    0.0,
+    1.0
+  ],
+  "solver_name": "gurobi",
+  "solver_threads": 4,
+  "n_orders": 1367,
+  "n_drivers": 86,
+  "n_feasibility_rows": 21872,
+  "n_cost_arcs": 117562,
+  "anchor_warm_start_lambdas": [
+    1.0
+  ],
+  "relative_gap_by_lambda": {},
+  "model_scope": "full_instance",
+  "experiment_family": "lambda_specific_gini_cross_measure_warmstart",
+  "gini_target_lambda": 1.0,
+  "gini_warm_start_source": "minmax_deviation",
+  "gini_warm_start_lambda_tag": "lambda_0_900",
+  "gini_warm_start_target_objective": 0.00510220282621913,
+  "gini_warm_start_fixed_reference_gini": 0.005101129906577617,
+  "gini_warm_start_standard_coefficient": 0.0047544379925644,
+  "gini_cost_reference_for_anchor_selection": 168199.94833493233,
+  "gini_n_drivers_for_anchor_selection": 86
+}

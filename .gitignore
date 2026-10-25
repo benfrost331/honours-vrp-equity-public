@@ -1,0 +1,168 @@
+
+# Python Virtual Environments:
+.venv/
+venv/
+
+# Python-Generated Files:
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter:
+.ipynb_checkpoints/
+
+# Local Configuration:
+.env
+
+# MacOS:
+.DS_Store
+
+# Generated Project Outputs:
+outputs/
+
+# Keep dashboard result data
+!outputs/
+!outputs/lambda_experiments/
+!outputs/lambda_experiments/lambda_solution_summary.csv
+!outputs/lambda_experiments/assignments/
+!outputs/lambda_experiments/assignments/*.csv
+!outputs/lambda_experiments/driver_workloads/
+!outputs/lambda_experiments/driver_workloads/*.csv
+!outputs/lambda_experiments/day_workloads/
+!outputs/lambda_experiments/day_workloads/*.csv
+
+# Re-Creatable Processed Data
+data/processed/
+
+
+# LOCAL PROJECT ARCHIVES AND AUDITS
+
+
+archive/
+audit/
+*.tar.gz
+*.zip
+
+
+# REPORT-FACING ANALYSIS TABLES
+
+
+!outputs/analysis/
+!outputs/analysis/*.csv
+!outputs/analysis/*.json
+
+
+# FULL-INSTANCE CANONICAL RESULTS
+
+
+!outputs/lambda_experiments/experiment_manifest.json
+!outputs/lambda_experiments/canonical_result_manifest.json
+
+
+# REDUCED K20 CANONICAL RESULTS
+
+
+!outputs/lambda_experiments_reduced_k20/
+!outputs/lambda_experiments_reduced_k20/lambda_solution_summary.csv
+!outputs/lambda_experiments_reduced_k20/experiment_manifest.json
+!outputs/lambda_experiments_reduced_k20/canonical_result_manifest.json
+!outputs/lambda_experiments_reduced_k20/assignments/
+!outputs/lambda_experiments_reduced_k20/assignments/*.csv
+!outputs/lambda_experiments_reduced_k20/driver_workloads/
+!outputs/lambda_experiments_reduced_k20/driver_workloads/*.csv
+!outputs/lambda_experiments_reduced_k20/day_workloads/
+!outputs/lambda_experiments_reduced_k20/day_workloads/*.csv
+
+# Solver logs, temporary process files and historical backups remain local.
+outputs/**/logs/
+outputs/**/overnight_logs/
+outputs/**/overnight.pid
+outputs/**/*backup*.csv
+outputs/**/*before_*.csv
+outputs/diagnostics/
+
+# Retain reproducible candidate-graph inputs
+data/reduced_candidate_graph/*
+!data/reduced_candidate_graph/assignment_cost_matrix_k20.csv
+!data/reduced_candidate_graph/candidate_driver_map_k20.csv
+!data/reduced_candidate_graph/candidate_graph_manifest_k20.json
+
+# Stage 3 representative routing outputs
+!outputs/stage_3_routing/
+!outputs/stage_3_routing/stage_3_master_summary.csv
+!outputs/stage_3_routing/full_instance/
+!outputs/stage_3_routing/full_instance/**/
+!outputs/stage_3_routing/full_instance/**/*.csv
+!outputs/stage_3_routing/full_instance/**/*.json
+!outputs/stage_3_routing/reduced_candidate_graph/
+!outputs/stage_3_routing/reduced_candidate_graph/**/
+!outputs/stage_3_routing/reduced_candidate_graph/**/*.csv
+!outputs/stage_3_routing/reduced_candidate_graph/**/*.json
+
+# Stage 3 repaired routing outputs
+!outputs/stage_3_routing_repaired/
+!outputs/stage_3_routing_repaired/stage_3_repaired_master_summary.csv
+!outputs/stage_3_routing_repaired/stage_3_repair_comparison_table.csv
+!outputs/stage_3_routing_repaired/full_instance/
+!outputs/stage_3_routing_repaired/full_instance/**/
+!outputs/stage_3_routing_repaired/full_instance/**/*.csv
+!outputs/stage_3_routing_repaired/full_instance/**/*.json
+!outputs/stage_3_routing_repaired/reduced_candidate_graph/
+!outputs/stage_3_routing_repaired/reduced_candidate_graph/**/
+!outputs/stage_3_routing_repaired/reduced_candidate_graph/**/*.csv
+!outputs/stage_3_routing_repaired/reduced_candidate_graph/**/*.json
+
+# FULL-INSTANCE EQUITY-MEASURE EXPERIMENT RESULTS
+
+!outputs/equity_experiments/
+!outputs/equity_experiments/full_instance/
+!outputs/equity_experiments/full_instance/**/
+!outputs/equity_experiments/full_instance/**/*.csv
+!outputs/equity_experiments/full_instance/**/*.json
+
+
+# PROCESSED DATA REQUIRED BY DEPLOYED DASHBOARDS
+
+!data/
+!data/processed/
+!data/processed/orders_clean.csv
+!data/processed/drivers_clean.csv
+!data/processed/routes_clean.csv
+# Local archived non-final experiment outputs
+archived_nonfinal_results/
+cleanup_inventory/
+
+# Python / macOS clutter
+__pycache__/
+*.py[cod]
+.DS_Store
+*.egg-info/
+
+# Local archived legacy code
+archived_legacy_code/
+outputs_smoke/
+outputs/logs/
+
+# Phase 5 — Excluded historical results
+outputs/equity_experiments_rerun/
+outputs/**/logs/
+outputs/assignment_cost_matrix_full.csv
+outputs/equity_experiments/full_instance/gini/gini_lambda_specific_warm_start_audit.csv
+outputs/analysis/master_solution_summary.csv
+outputs/analysis/solver_attempt_inventory.csv
+outputs/analysis/solution_families.csv
+outputs/analysis/full_vs_reduced_overlap.csv
+
+# Historical processed reduced datasets
+data/processed/*_reduced.csv
+
+# Local audit and backup files
+audit/
+archive/
+cleanup_inventory/
+tracked_files_before.txt
+
+# Gurobi solver log
+/gurobi.log

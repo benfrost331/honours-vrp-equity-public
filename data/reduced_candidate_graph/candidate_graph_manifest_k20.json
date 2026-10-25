@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-07-01T11:13:45.776791+00:00",
+  "instance_type": "restricted_candidate_graph",
+  "candidate_rule": "lowest_estimated_assignment_time",
+  "candidate_k": 20,
+  "anchor_lambdas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "n_orders": 1367,
+  "n_drivers": 86,
+  "planning_days": 16,
+  "full_order_driver_arcs": 117562,
+  "reduced_order_driver_arcs": 27340,
+  "full_binary_variables": 1735222,
+  "reduced_binary_variables": 403540,
+  "binary_variable_reduction_pct": 76.74418604651163,
+  "minimum_candidates_per_order": 20,
+  "maximum_candidates_per_order": 20,
+  "mean_candidates_per_order": 20.0,
+  "anchor_coverage": {
+    "0.0": {
+      "assignments": 1367,
+      "missing_pairs": 0,
+      "fully_retained": true
+    },
+    "0.1": {
+      "assignments": 1367,
+      "missing_pairs": 0,
+      "fully_retained": true
+    },
+    "0.2": {
+      "assignments": 1367,
+      "missing_pairs": 0,
+      "fully_retained": true
+    },
+    "0.3": {
+      "assignments": 1367,
+      "missing_pairs": 0,
+      "fully_retained": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "objective_mode": "normalized",
+  "equity_measure_type": "range",
+  "cost_reference": 168199.94833493233,
+  "equity_reference": 8464.8166847229,
+  "workload_reference": 8464.8166847229,
+  "time_limit_seconds": 7200,
+  "relative_gap_target": 0.03,
+  "lambda_values_requested": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "solver_name": "gurobi",
+  "solver_threads": 4,
+  "n_orders": 1367,
+  "n_drivers": 86,
+  "n_feasibility_rows": 21872,
+  "n_cost_arcs": 117562,
+  "anchor_warm_start_lambdas": [],
+  "relative_gap_by_lambda": {},
+  "model_scope": "full_instance",
+  "experiment_family": "multi_equity_measure"
+}

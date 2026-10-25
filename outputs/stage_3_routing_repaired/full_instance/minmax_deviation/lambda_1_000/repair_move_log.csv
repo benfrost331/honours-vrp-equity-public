@@ -1,0 +1,2 @@
+iteration,orderid,source_route_id,source_day_index,source_weekday,source_driver_id,source_driver_name,target_day_index,target_weekday,target_driver_id,target_driver_name,old_affected_violation_minutes,new_affected_violation_minutes,old_affected_infeasible_routes,new_affected_infeasible_routes,old_affected_route_duration,new_affected_route_duration
+1,1359,full_instance_lambda_1_000_d12_k086,12,Wed,86,Driver 87,1,Tue,22,Driver 22,10.258333206176758,0.0,1,0,565.8699998855591,572.3733339309692

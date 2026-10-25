@@ -1,0 +1,6 @@
+iteration,orderid,source_route_id,source_day_index,source_weekday,source_driver_id,source_driver_name,target_day_index,target_weekday,target_driver_id,target_driver_name,old_affected_violation_minutes,new_affected_violation_minutes,old_affected_infeasible_routes,new_affected_infeasible_routes,old_affected_route_duration,new_affected_route_duration
+1,443,full_instance_lambda_0_100_d04_k077,4,Fri,77,Driver 78,3,Thu,77,Driver 78,18.756667137146,0.0,1,0,569.7933340072632,575.4400005340576
+2,249,full_instance_lambda_0_100_d02_k068,2,Wed,68,Driver 68,1,Tue,37,Driver 37,15.053332328796388,0.0,1,0,565.1716651916504,568.1866664886475
+3,24,full_instance_lambda_0_100_d02_k014,2,Wed,14,Driver 14,3,Thu,14,Driver 14,10.768333435058594,0.0,1,0,565.8916664123535,580.6750011444092
+4,434,full_instance_lambda_0_100_d10_k086,10,Mon,86,Driver 87,1,Tue,86,Driver 87,7.989999294281006,0.0,1,0,555.8416657447815,563.2699990272522
+5,304,full_instance_lambda_0_100_d13_k038,13,Thu,38,Driver 38,4,Fri,38,Driver 38,2.048333644866944,0.0,1,0,552.1250004768372,570.391667842865

@@ -1,0 +1,7 @@
+weekday,is_feasible,n_order_day_combinations
+Fri,False,1695
+Fri,True,2406
+Mon,True,4101
+Thu,True,4101
+Tue,True,5468
+Wed,True,4101

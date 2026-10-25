@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-01T20:42:13.001727+00:00",
+  "model_scope": "full_instance",
+  "lambda_tag": "lambda_0_700",
+  "lambda_equity": 0.7,
+  "assignment_solution_hash": "28aa907c95197ac328b7efedf42d62ef4308290e675842067f605e3618220a3a",
+  "routing_layer": "decomposed_driver_day",
+  "construction_methods": [
+    "exact_enumeration"
+  ],
+  "exact_route_limit": 8,
+  "n_driver_day_routes": 873,
+  "n_orders": 1367,
+  "equity_measure_type": "range"
+}

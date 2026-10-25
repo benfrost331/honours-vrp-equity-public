@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-01T21:20:49.798917+00:00",
+  "model_scope": "full_instance",
+  "lambda_tag": "lambda_0_800",
+  "lambda_equity": 0.8,
+  "repair_strategy": "single_order_to_empty_driver_day",
+  "source_stage_3_directory": "outputs/stage_3_routing/full_instance/maximum/lambda_0_800",
+  "n_repair_moves": 0,
+  "n_infeasible_routes_after_repair": 0,
+  "total_violation_minutes_after_repair": 0.0,
+  "candidate_drivers_per_order": 8,
+  "max_targets_per_order": 12,
+  "search_exact_route_limit": 5,
+  "final_exact_route_limit": 8,
+  "route_eval_cache_max_size": 50000,
+  "max_iterations": 20,
+  "equity_measure_type": "maximum"
+}

@@ -1,0 +1,8 @@
+operator_type,operator_name,final_weight
+destroy,random_removal,6.315201900230071
+destroy,worst_route_removal,6.348707802265566
+destroy,high_workload_driver_removal,2.8931949286155194
+destroy,related_order_removal,8.593749361305436
+repair,cheapest_insertion,6.239997014108141
+repair,regret_2_insertion,7.925234704808108
+repair,workload_balancing_insertion,4.976241083379774
