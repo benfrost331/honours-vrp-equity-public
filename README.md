@@ -159,7 +159,7 @@ For example, `outputs/stage_4_alns/full_instance/gini/lambda_0_100/` contains th
 The canonical development environment used **Python 3.10.10**. The included requirements specify the application dependencies and additional optimisation packages. Compatibility with every Python version or operating system has not been established.
 
 ```bash
-# Clone the repository (authentication is required until public release).
+# Clone the repository.
 git clone https://github.com/benfrost331/honours-vrp-equity-public.git
 cd honours-vrp-equity-public
 
