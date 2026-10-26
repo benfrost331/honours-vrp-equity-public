@@ -12,7 +12,7 @@ Rather than identifying a single preferred schedule, the project compares alloca
 
 | Instance Characteristic | Value |
 |---|---:|
-| Customer Orders | 1,367 |
+| Customer Orders | 1367 |
 | Drivers | 86 |
 | Planning Horizon | 16 working days |
 | Friday-Restricted Orders | 565 |
